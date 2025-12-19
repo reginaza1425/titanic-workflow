@@ -22,8 +22,8 @@ jobs:
           
       # JIKA LEVEL BASIC/SKILLED (Training Lokal di Runner GitHub):
       - name: Train Model
-        run: mlflow run MLProject --no-conda
-
+        run: mlflow run MLProject --env-manager=local
+        
       # ATAU JIKA MENGGUNAKAN PERINTAH MLFLOW RUN (Lebih disarankan):
       # - name: Run MLflow Project
       #   run: mlflow run MLProject_Folder --no-conda
