@@ -31,7 +31,7 @@ def train_model():
     mlflow.sklearn.autolog()
 
     # Set Experiment
-    mlflow.set_experiment("Titanic_Survival_Prediction")
+    # mlflow.set_experiment("Titanic_Survival_Prediction")
 
     with mlflow.start_run():
         
