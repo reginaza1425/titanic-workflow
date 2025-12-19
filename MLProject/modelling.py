@@ -16,7 +16,7 @@ def train_model():
     # 1. Load data
     # Menggunakan path dinamis agar aman dijalankan dari mana saja
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(current_dir, "Titanic_raw.csv") # Atau sesuaikan path csv Anda
+    csv_path = os.path.join(current_dir, "titanic_clean.csv") # Atau sesuaikan path csv Anda
     
     # Jika file csv ada di folder yang berbeda (misal di folder parent), sesuaikan path-nya
     # Contoh jika csv di folder MLProject dan script di folder yang sama, kode di atas sudah benar.
